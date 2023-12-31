@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-a,
-ul,
-li {
+a {
     list-style: none;
     text-decoration: none;
     color: black;
@@ -20,6 +18,12 @@ body {
     background-color: #FFFFFF;
 }
 
+section {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
 .container-header {
     display: flex;
     align-items: center;
@@ -28,7 +32,6 @@ body {
     /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
     border-radius: 15px;
 }
-
 
 .logo img {
     width: 180px;
@@ -59,11 +62,9 @@ body {
     display: block;
 }
 
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
 
 .s-button {
     padding: 10px 20px;
@@ -75,54 +76,40 @@ body {
 }
 
 .container-card {
-    margin-top: 30px;
-    /* background-color: blueviolet; */
-    height: 500px;
+    min-height: 500px;
     border-radius: 15px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 .cards {
-    margin: 30px;
+    margin: 1rem;
     display: flex;
     justify-content: space-around;
 }
 
 .card-title {
-    padding: 20px;
+    padding: 2rem;
     display: flex;
     justify-content: center;
-    /* background-color: blue; */
 }
 
 .s-card img {
     border-bottom: 3px solid #ff5100;
     border-left: 3px solid #ff5100;
-    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
     border-radius: 15px;
 }
 
 .container-benefits {
-    margin-top: 30px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     min-height: 500px;
     gap: 1rem;
     padding: 1rem;
+
 }
 
 .header-benefits {
-    width: 20rem;
-    height: 8rem;
-    background: #29292c;
-    border-radius: 15px;
-    color: #FFFFFF;
-    font-size: 16px;
-    padding: 1rem 1rem;
-}
-
-.s-cards-benefits {
-    width: 30rem;
+    width: 28.625rem;
     height: 10rem;
     background: #29292c;
     border-radius: 15px;
@@ -137,7 +124,66 @@ body {
     gap: 1rem;
 }
 
-section {
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+.s-cards-benefits {
+    width: 29rem;
+    height: 10rem;
+    background: #29292c;
     border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 1rem 1rem;
+}
+
+
+
+
+
+.container-finance {
+    min-height: 500px;
+}
+
+.finance-title {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.finance-cards {
+    padding: 1rem;
+    gap: 7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.finance-img img {
+    /* border-bottom: 3px solid #ff5100; */
+    /* border-left: 3px solid #ff5100; */
+    border-radius: 15px;
+}
+
+.card-finance-content {
+    display: flex;
+    max-width: 570px;
+    max-height: 334px;
+    /* background-color: rgba(202, 142, 12, 0.205); */
+    gap: 1rem;
+}
+
+.finance-context {    
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+
+}
+
+.finance-list {
+    margin-left: 1rem;
+}
+
+.finance-button {
+    margin-top: 1rem;
+}
+
+.border-finance {
+    border-left: 1px solid rgb(0, 0, 0);
 }
