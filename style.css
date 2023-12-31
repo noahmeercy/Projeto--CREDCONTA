@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    max-width: 1440px;
+    /* min-height: 2250px; */
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+}
+
+
+.logo img {
+    width: 180px;
+    display: flex;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+
+.dropdown-content a {
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.s-button {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 700;
+    width: 120px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.container-card {
+    margin-top: 30px;
+    /* background-color: blueviolet; */
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.cards {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-title {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+.s-card img{
+    border-bottom: 3px solid #ff5100;
+    border-left: 3px solid #ff5100;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    border-radius: 15px;   
+}
+
+.container-benefits {
+    margin-top: 30px;
+    height: 500px;
+    /* background-color: #ff5100; */
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: flex;
+}
+
+.header-benefits {
+    width: 288px;
+    height: 128px;
+    background: #29292c;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 16px;
+    /* margin-left: 30px ; */
+    /* margin-top: 30px; */
+}
+
+/* .cards-benefits {
+    margin: 30px; 
+      display: flex;
+     align-content: center;
+    justify-content: space-around;
+} */
+
+.s-cards-benefits {
+    width: 288px;
+    height: 128px;
+    background: #29292c;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-left: 30px; 
+    margin-top: 30px; 
+    display: flex;
+}
