@@ -17,7 +17,7 @@ body {
     background-color: #FFFFFF;
 }
 
-section {
+section{
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     margin-top: 30px;
@@ -111,9 +111,9 @@ section {
 .header-benefits {
     width: 28.625rem;
     height: 10rem;
-    background: #29292c;
+    background: #DBE1DD;
     border-radius: 15px;
-    color: #FFFFFF;
+    color: #000000;
     font-size: 16px;
     padding: 1rem 1rem;
 }
@@ -127,15 +127,15 @@ section {
 .s-cards-benefits {
     width: 29rem;
     height: 10rem;
-    background: #29292c;
+    background: #DBE1DD;
     border-radius: 15px;
-    color: #FFFFFF;
+    color: #000000;
     font-size: 16px;
     padding: 1rem 1rem;
 }
 
 .container-finance {
-    /* min-height: 500px; */
+    min-height: 500px;
 }
 
 .finance-title {
@@ -185,7 +185,52 @@ section {
 }
 
 .container-contract {
-    min-height: 500px;
+    min-height: 320px;
     background-color: #DBE1DD;
     border-radius: 15px;
+    display: flex;
+}
+
+.content-contract {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.contract-button {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 1rem;   */
+}
+
+.container-assessment {
+    min-height: 320px;
+    background-color: #C7CEC9;
+    border-radius: 15px;
+}
+
+.title-assesment {
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer {
+    margin-top: 30px;
+    min-height: 487px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.slogan-footer {
+    background-color: #FF5829;
+    height: 65px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
