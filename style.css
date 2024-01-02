@@ -12,8 +12,7 @@ a {
 
 body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    max-width: 1440px;
-    /* min-height: 2250px; */
+    max-width: 1350px;
     margin: 0 auto;
     background-color: #FFFFFF;
 }
@@ -93,8 +92,8 @@ section {
 }
 
 .s-card img {
-    border-bottom: 3px solid #ff5100;
-    border-left: 3px solid #ff5100;
+    border-bottom: 3px solid #FF8C00;
+    border-left: 3px solid #FF8C00;
     border-radius: 15px;
 }
 
@@ -105,7 +104,8 @@ section {
     min-height: 500px;
     gap: 1rem;
     padding: 1rem;
-
+    /* background-color: #FF8C00; */
+    /* border-radius: 15px; */
 }
 
 .header-benefits {
@@ -134,12 +134,8 @@ section {
     padding: 1rem 1rem;
 }
 
-
-
-
-
 .container-finance {
-    min-height: 500px;
+    /* min-height: 500px; */
 }
 
 .finance-title {
@@ -186,4 +182,10 @@ section {
 
 .border-finance {
     border-left: 1px solid rgb(0, 0, 0);
+}
+
+.container-contract {
+    min-height: 500px;
+    background-color: #DBE1DD;
+    border-radius: 15px;
 }
