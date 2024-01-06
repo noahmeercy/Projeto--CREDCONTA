@@ -102,30 +102,28 @@ section{
     justify-content: center;
     flex-direction: column;
     min-height: 500px;
-    gap: 1rem;
+    row-gap: 1rem;
     padding: 1rem;
-    /* background-color: #FF8C00; */
-    /* border-radius: 15px; */
 }
 
 .header-benefits {
-    width: 28.625rem;
+    width: 26rem;
     height: 10rem;
     background: #DBE1DD;
     border-radius: 15px;
     color: #000000;
     font-size: 16px;
-    padding: 1rem 1rem;
 }
 
 .container-cards {
     display: flex;
-    align-items: center;
-    gap: 1rem;
+    /* align-items: center; */
+    gap: 2rem;
+
 }
 
 .s-cards-benefits {
-    width: 29rem;
+    width: 26rem;
     height: 10rem;
     background: #DBE1DD;
     border-radius: 15px;
